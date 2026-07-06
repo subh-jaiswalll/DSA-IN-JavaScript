@@ -8,7 +8,6 @@ class Node {
 class LinkedList {
   constructor() {
     this.head = null;
-    this.tail = null;
     this.length = 0;
   }
 }
@@ -21,8 +20,8 @@ function insertAtFirst(head, x){
 
 function print(head){
 
-    let temp = head;
-
+    let temp = head
+    l
     while(temp !== null){
         process.stdout.write.toString(temp.data)
         if(temp.next !== null){
